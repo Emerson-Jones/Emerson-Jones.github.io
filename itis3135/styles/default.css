@@ -1,9 +1,10 @@
 body{
     /*background-color: #50C878;
     color:#424874; */
-    background-color:#3B5249;
-    color:#A9CEF4;
+    background-color:#7698B3;
+    color:#141B41;
     font-family: Helvtica, sans-serif;
+    
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -21,4 +22,7 @@ h3{
 }
 figcaption{
     font-style: italic;
+}
+a{
+    color: #0B5D1E;
 }
