@@ -3,7 +3,22 @@ body{
     color:#424874; */
     background-color:#3B5249;
     color:#A9CEF4;
+    font-family: Helvtica, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 header{
     color: #50C878;
+}
+h1{
+    font-family: Helvtica, sans-serif;
+}
+h2{
+    font-family: Helvtica, sans-serif;
+}
+h3{
+    font-family: Helvtica, sans-serif;
+}
+figcaption{
+    font-style: italic;
 }
