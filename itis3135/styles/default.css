@@ -12,16 +12,29 @@ header{
 }
 h1{
     font-family: Helvtica, sans-serif;
+    text-align: center;
 }
 h2{
     font-family: Helvtica, sans-serif;
+    text-align: center;
 }
 h3{
     font-family: Helvtica, sans-serif;
+    text-align: center;
 }
 figcaption{
     font-style: italic;
+    text-align: center;
+}
+figure{
+    text-align: center;
 }
 a{
     color:#0B5D1E;
+}
+nav{
+    text-align: center;  
+}
+footer{
+    text-align: center;
 }
