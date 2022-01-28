@@ -47,14 +47,15 @@ td
 {
     border:1px solid black;
     padding:10px;
-    background-color: #A4F9C8;
+    /*background-color: #A4F9C8;*/
     
 }
 th
 {
     border:1px solid black;
     padding:10px;
-    background-color: #50C878;
+    /*background-color: #50C878;*/
+    background-color: #19a339;
     
 }
 table
@@ -62,4 +63,10 @@ table
     margin-left: auto;
     margin-right: auto;
     border-collapse: collapse;
+}
+table tr:nth-child(even){
+    background-color: #50C878;
+}
+table tr:nth-child(odd){
+    background-color: #A4F9C8
 }
