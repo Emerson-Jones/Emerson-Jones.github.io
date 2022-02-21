@@ -29,26 +29,95 @@ function colors()
 function page()
 {
     var integer = Math.floor(Math.random() * 6);
-    if(integer == 0){
+    if(integer == 0)
+    {
         window.open("introduction.html");
     }
-    if(integer == 1){
+    if(integer == 1)
+    {
         window.open("contract.html");
     }
-    if(integer == 2){
+    if(integer == 2)
+    {
         window.open("tables.html");
     }
-    if(integer == 3){
+    if(integer == 3)
+    {
         window.open("forms.html");
     }
-    if(integer == 4){
+    if(integer == 4)
+    {
         window.open("website_evaluations.html");
     }
-    if(integer == 5){
+    if(integer == 5)
+    {
         window.open("index.html");
     }
-    if(integer == 6){
+    if(integer == 6)
+    {
         window.open("brand-emerald-jackal.html");
+    } 
+}
+function validateEntry()
+{
+    do
+    {
+        var sides = prompt("The Emerald Jackal would like you to enter the number of sides from 1 to 10");
+        sides = Math.abs(sides);
+        if (isNaN(sides))
+        {
+            alert("Number of sides must be a number");
+        }
+        if (sides > 10)
+        {   
+            alert("Must be 10 or less");
+        }
+    }
+    
+    while( isNaN(sides) || (sides > 10));
+    return sides;
+}
+function getShape(sides)
+{
+    if(sides == 1)
+    {
+        alert("it is a monogon");
+    }
+    if(sides == 2)
+    {
+        alert("it is a bigon");
+    }
+    if(sides == 3)
+    {
+        alert("it is a trigon");
+    }
+    if(sides == 4)
+    {
+        alert("it is a tetragon");
+    }
+    if(sides == 5)
+    {
+        alert("it is a pentagon");
+    }
+    if(sides == 6)
+    {
+        alert("it is a hexagon");
+    }
+    if(sides == 7)
+    {
+        alert("it is a heptagon");
+    }
+    if(sides == 8)
+    {
+        alert("it is a octagon");
+    }
+    if(sides == 9)
+    {
+        alert("it is a enneagon");
+    }
+    if(sides == 10)
+    {
+        alert("it is a decagon");
     }
     
 }

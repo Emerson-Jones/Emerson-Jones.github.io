@@ -8,7 +8,7 @@
   </title>
   <link href="styles/default.css" type="text/css" rel="stylesheet">
   <script src = "scripts/defaultscripts.js">
-  </script>
+</script>
 </head>
 
 <body>
@@ -43,36 +43,15 @@
 
   </header>
   <main>
-    <h2>
-      First Scrips
-    </h2>
-    <h3>
       <script>
-        var today = new Date();
-        var time = today.getHours() + ":" + today.getMinutes();
-        document.write("Current Date: ");
-        document.write(time + " " + today.toDateString());
+       getShape(validateEntry());
       </script>
-    </h3>
-    <p>
-        <input type="text" id = "name" name = "name" placeholder="Name" required>
-        <input type="text" id = "mood" name = "mood" placeholder="Mood" required> 
-        <button type="submit" onclick = "message()">Submit</button> 
+    <h2>
+      Polygons
+    </h2>
+    <p id = "shape">
+      The polygon is a...
     </p>
-    <p id = "welcome">
-
-    </p>
-    <p>
-      <button onclick = "num_jackals()">Number of Jackals</button>
-      <button onclick = "help()">Help</button>
-      <button onclick = "colors()">Color</button>
-      <button onclick = "page()">Random Page</button>
-    </p>
-    <P id = "response">
-
-    </P>
-    <button onclick = "scriptTest()">Test</button>
-    
   </main>
   <footer>
       <a href="https://webpages.charlotte.edu/ejone108/"> Charlotte</a>
