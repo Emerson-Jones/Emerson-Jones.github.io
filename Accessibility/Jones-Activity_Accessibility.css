@@ -62,15 +62,6 @@ form {
 }
 
 
-/* footer bottom of page*/
-footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-right: 70px;
- 
-}
-
 abbr {
   text-decoration: none;
 
@@ -91,5 +82,8 @@ abbr {
   text-decoration: none;
   cursor: pointer;
 }
-
+.submit {
+  color: aqua;
+  background-color:rgb(4, 73, 73);
+}
 
