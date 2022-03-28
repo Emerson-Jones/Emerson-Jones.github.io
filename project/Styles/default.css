@@ -4,11 +4,35 @@ body
 {
     background-color: #F5F5DC;
     color: #393E41;
+    margin: 0;
+    margin-top: 0;
 }
 
 header
 {
     text-align: center;
-    color: #3F88C5;
-    background-color: #F6F7EB;
+    color: #1f6096;
+    background-color: #6f848c;
+}
+h1
+{
+margin-top: 0;
+}
+h2
+{
+text-align: center;
+}
+footer
+{
+    text-align: center;
+    background-color: #6f848c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+a
+{
+    text-decoration: none;
+    color:#0f037c;
 }
