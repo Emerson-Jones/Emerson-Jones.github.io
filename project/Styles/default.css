@@ -36,3 +36,29 @@ a
     text-decoration: none;
     color:#0f037c;
 }
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p
+{
+margin-left: 15pc;
+}
+form
+{
+    text-align: center;
+}
+.column 
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
