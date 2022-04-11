@@ -1,4 +1,9 @@
-<!-- jQuery call to the accordion() method. -->
+/* jQuery call to the accordion() method. */
 $(document).ready(function() {
-    $("#tabs").tabs();
+    $("#accordion").accordion({
+        event: "mouseover",
+        heightStyle: "content",
+        collapsible: true
+    });
+
 });
