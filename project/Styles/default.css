@@ -1,4 +1,4 @@
-/*https://coolors.co/f6f7eb-393e41-3f88c5-44bba4-f5f5dc*/
+/*https://coolors.co/f6f7eb-025b92-1f6096-6f848c-f5f5dc*/
 
 body
 {
@@ -13,6 +13,10 @@ header
     text-align: center;
     color: #1f6096;
     background-color: #6f848c;
+}
+h1,h2,h3
+{
+color:#025b92;
 }
 h1
 {
@@ -38,7 +42,7 @@ footer
 a
 {
     text-decoration: none;
-    color:#aa1cce;
+    color:#0ca094;
 }
 img
 {
