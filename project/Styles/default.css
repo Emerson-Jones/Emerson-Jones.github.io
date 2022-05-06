@@ -22,6 +22,10 @@ h2
 {
 text-align: center;
 }
+h3
+{
+    text-align: center;
+}
 footer
 {
     text-align: center;
@@ -44,7 +48,8 @@ img
 }
 p
 {
-margin-left: 15pc;
+margin-left: 5%;
+margin-right: 5%;
 }
 form
 {
@@ -61,4 +66,8 @@ form
     content: "";
     clear: both;
     display: table;
+}
+.center
+{
+    text-align: center;
 }
