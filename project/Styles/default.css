@@ -1,37 +1,38 @@
 /*https://coolors.co/0ca094-025b92-1f6096-6f848c-f5f5dc*/
 
-body
-{
+body {
     background-color: #F5F5DC;
     color: #0f8edd;
     margin: 0;
     margin-top: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
-header
-{
+header {
     text-align: center;
     color: #1f6096;
     background-color: #6f848c;
 }
-h1,h2,h3
-{
-color:#025b92;
+
+h1,
+h2,
+h3 {
+    color: #025b92;
 }
-h1
-{
-margin-top: 0;
+
+h1 {
+    margin-top: 0;
 }
-h2
-{
-text-align: center;
-}
-h3
-{
+
+h2 {
     text-align: center;
 }
-footer
-{
+
+h3 {
+    text-align: center;
+}
+
+footer {
     text-align: center;
     background-color: #6f848c;
     color: #1f6096;
@@ -40,44 +41,44 @@ footer
     width: 100%;
     height: 70px;
 }
-a
-{
+
+a {
     text-decoration: none;
-    color:#074944;
+    color: #074944;
     /*#0ca094*/
 }
-.centerImage
-{
-    display: block;  
+
+.centerImage {
+    display: block;
 }
-img
-{
+
+img {
     /*display: block;*/
     margin-left: auto;
     margin-right: auto;
 }
-p
-{
-margin-left: 5%;
-margin-right: 5%;
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
 }
-form
-{
+
+form {
     text-align: center;
 }
-.column 
-{
+
+.column {
     float: left;
     width: 33.33%;
     padding: 5px;
 }
-.row::after 
-{
+
+.row::after {
     content: "";
     clear: both;
     display: table;
 }
-.center
-{
+
+.center {
     text-align: center;
 }
