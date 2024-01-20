@@ -1,3 +1,17 @@
+/*
+    Color Scheme https://brand.charlotte.edu/visual-identity/color-palette/
+    CHARLOTTE GREEN:#005035
+    NINER GOLD:#A49665
+    QUARTZ WHITE:#FFFFFF
+
+    JASPER:#F1E6B2
+    PINE GREEN:#899064
+    CLAY RED: #802F2D
+    SKY BLUE:#007377
+    ORE BLACK:#101820
+*/
+
+
 li a 
 {
     display: block;
@@ -9,6 +23,7 @@ li a
 li a:hover 
 {
     background-color: #899064;
+    color: #007377
 }
 
 ul 
