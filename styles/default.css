@@ -18,3 +18,33 @@ ul {
     width: 300px;
     background-color: #f1f1f1;
 }
+
+nav {
+    position: fixed;
+    top: 45px;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #005035;
+    overflow: auto;
+    z-index: 2;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 44px;
+    background-color: #A49665;
+    border-bottom: 1px solid #000000;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+h2
+{
+    text-align: center;
+}
+body {
+    background-color: #F1E6B2;
+}
