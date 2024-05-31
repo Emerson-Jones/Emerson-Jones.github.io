@@ -13,10 +13,24 @@
     <div data-include="components/header.html"></div>
     
     <main>
-        <h2>
-            About Me
-        </h2>
+        <form action = "">
+
+            <Label>Username: </Label>
+            <input type ="text" placeholder="Enter Your Username" name="username" required>
+
+            <Label>Password: </Label>
+            <input type ="text" placeholder="Enter Your Password" name="password" required>
+
+            <button type="submit">Login</button>   
+
+            <p>
+                New?
+                <a href="create">Create Account</a>
+            </p>
+        </form>
     </main>
+
+
     <div data-include="components/footer.html"></div>
     <script src="scripts/htmlinclude.js"></script>
 </body>
